@@ -20,6 +20,10 @@ MTSLUI_TOOLS = {
 	-- returns			Frame		Returns the created frame
 	----------------------------------------------------------------------------------------
 	CreateBaseFrame = function (self, type, name, parent, template, width, height, has_backdrop)
+		if has_backdrop ~= nil and has_backdrop == true then
+			template = "BackdropTemplate"
+		end
+
 		local generic_frame = CreateFrame(type, name, parent, template)
 		generic_frame:SetWidth(width)
 		generic_frame:SetHeight(height)

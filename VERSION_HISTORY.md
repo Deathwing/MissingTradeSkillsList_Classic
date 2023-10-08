@@ -1,5 +1,9 @@
 ## Version History
 
+### v1.14.01 (Oct 08, 2023)
+
+* Fixed critical issues with SetBackdrop preventing the AddOn to work with WoW Classic 1.14.x
+
 ### v1.13.54 (May 31, 2021)
 
 * Updated skill, item & specialisation translations for all languages except for Korean, simplified Chinese and traditional Chinese to match live data

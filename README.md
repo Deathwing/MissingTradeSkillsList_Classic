@@ -1,5 +1,5 @@
 # MissingTradeSkillsList
-Addon for World Of Warcraft Classic v1.13  
+Addon for World Of Warcraft Classic v1.14  
 Shows the missing recipes/skills for a tradeskill and where to get them  
 Addon only works **all** languages now! (MTSL Options menu still only shown in English only)  
 
@@ -38,10 +38,9 @@ Minimap button & Enhanced tooltip
 * Link items to a channel (Say, Guild, Party, Raid or "Auto") or add item to current chat message
 * Ability to drag each MTSL frame around
 
-### Latest version (v1.13.54)
+### Latest version (v1.14.01)
 
-* Updated skill, item & specialisation translations for all languages except for Korean, simplified Chinese and traditional Chinese to match live data
-* Updated wrong prices from vendor to match live data
+* Fixed critical issues with SetBackdrop preventing the AddOn to work
 
 ### Support
 

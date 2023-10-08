@@ -4,9 +4,9 @@
 
 -- holds all info about the addon itself
 MTSLUI_ADDON = {
-    AUTHOR = "Thumbkin",
+    AUTHOR = "Deathwing",
     NAME = "Missing TradeSkills List",
-    VERSION = "1.13.54",
+    VERSION = "1.14.01",
     SERVER_VERSION_PHASES = {
         -- max build number from server for phase 1,
         {
