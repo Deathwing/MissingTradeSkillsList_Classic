@@ -3,11 +3,6 @@ Addon for World Of Warcraft Classic v1.13
 Shows the missing recipes/skills for a tradeskill and where to get them  
 Addon only works **all** languages now! (MTSL Options menu still only shown in English only)  
 
-Please **donate** (paypal to thumbkin83@gmail.com) if you want to support this addon!
-
-### Author
-Thumbkin (Retail: EU-Burning Steppes, Classic: EU-Pyrewood Village)
-
 ### Screenshots
 MTSL - Vertical split (Change using options menu)  
 ![alt text](http://www.thumbkin.be/mtsl/images/classic/mtsl_main.png "Missing TradeSkills List - Main window")  
