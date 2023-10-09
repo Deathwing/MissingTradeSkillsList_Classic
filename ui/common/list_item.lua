@@ -32,7 +32,7 @@ MTSLUI_LIST_ITEM = {
         self.ui_frame:SetID(id)
         -- strip textures
         self.ui_frame:SetNormalTexture(self.TEXTURES.NOT_SELECTED)
-        self.ui_frame:SetPushedTexture(self.TEXTURES.NOT_SELECTED)
+        self.ui_frame:SetPushedTexture(self.TEXTURES.SELECTED)
         self.ui_frame:SetDisabledTexture(self.TEXTURES.NOT_SELECTED)
         -- set own textures
         self.ui_frame:SetHighlightTexture(self.TEXTURES.HIGHLIGHTED)
@@ -98,7 +98,7 @@ MTSLUI_LIST_ITEM = {
     ----------------------------------------------------------------------------------------
     Deselect = function (self)
         self.is_selected = 0
-        self.ui_frame:SetNormalTexture(self.TEXTURES.NOT_SELECTED)
+        self.ui_frame:ClearNormalTexture()
     end,
 
     ---------------------------------------------------------------------------------------
